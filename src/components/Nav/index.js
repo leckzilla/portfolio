@@ -3,13 +3,14 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "../About";
 import Projects from "../Projects";
 import Contact from "../Contact";
+import css from "./nav.module.css";
 
 function Nav() {
   return (
-    <>
+    <div>
       <Router>
-        <nav>
-          <ul>
+        <nav className={css.nav}>
+          <ul className={css.navLinks}>
             <li>
               <Link to="/about">About</Link>
             </li>
@@ -27,7 +28,7 @@ function Nav() {
           <Route path="/contact" component={Contact} />
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
