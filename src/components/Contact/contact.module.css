@@ -1,0 +1,6 @@
+#links {
+  padding: 0.5pc;
+  display: flex;
+  flex-direction: row;
+  max-height: 10vh;
+}

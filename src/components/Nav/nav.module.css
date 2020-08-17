@@ -3,9 +3,10 @@
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: brown;
+  background-color: lightseagreen;
 }
 
 .navLinks {
   list-style: none;
+  color: antiquewhite;
 }
