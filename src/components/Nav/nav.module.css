@@ -1,12 +1,10 @@
 .nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   min-height: 10vh;
   background-color: lightseagreen;
 }
 
 .navLinks {
+  display: flex;
+  flex-direction: row-reverse;
   list-style: none;
-  color: antiquewhite;
 }

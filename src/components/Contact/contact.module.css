@@ -1,6 +1,10 @@
+div {
+  display: grid;
+}
+
 #links {
   padding: 0.5pc;
   display: flex;
-  flex-direction: row;
+  align-items: center;
   max-height: 10vh;
 }
