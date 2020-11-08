@@ -3,12 +3,17 @@
   background-color: #d14a4a;
 }
 
-.navLinks {
-  font-family: "Lakki Reddy", cursive;
+ul {
   display: flex;
-  flex-direction: row;
+  margin-left: 67vw;
+  font-family: "Lakki Reddy", cursive;
   list-style: none;
 }
+
+.navItem {
+  padding-left: 1em;
+}
+
 a {
   color: black;
 }

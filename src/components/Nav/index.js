@@ -11,17 +11,17 @@ function Nav() {
       <Router>
         <nav className={css.nav}>
         <h1>Alexa-Jane Berry</h1>
-          <ul className={css.navLinks}>
-          <li>
+          <ul>
+          <li className={css.navItem}>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className={css.navItem}>
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li className={css.navItem}>
               <Link to="/projects">Projects</Link>
             </li>
-            <li>
+            <li className={css.navItem}>
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
