@@ -12,6 +12,9 @@ function Nav() {
       <Router>
         <nav className={css.nav}>
           <ul className={css.navLinks}>
+          <li>
+              <Link to="/">Home</Link>
+            </li>
             <li>
               <Link to="/about">About</Link>
             </li>
@@ -24,6 +27,7 @@ function Nav() {
           </ul>
         </nav>
         <Switch>
+        {/* <Route path="/" component={App} /> */}
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
