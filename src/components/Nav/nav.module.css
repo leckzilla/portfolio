@@ -1,10 +1,14 @@
 .nav {
   min-height: 10vh;
-  background-color: lightseagreen;
+  background-color: #d14a4a;
 }
 
 .navLinks {
+  font-family: "Lakki Reddy", cursive;
   display: flex;
   flex-direction: row;
   list-style: none;
+}
+a {
+  color: black;
 }

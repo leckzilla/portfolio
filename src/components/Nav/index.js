@@ -8,9 +8,9 @@ import css from "./nav.module.css";
 function Nav() {
   return (
     <div>
-      <h1>Alexa-Jane Berry</h1>
       <Router>
         <nav className={css.nav}>
+        <h1>Alexa-Jane Berry</h1>
           <ul className={css.navLinks}>
           <li>
               <Link to="/">Home</Link>
