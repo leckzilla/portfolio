@@ -16,9 +16,6 @@ function Nav() {
               <Link to="/">Home</Link>
             </li>
             <li className={css.navItem}>
-              <Link to="/about">About</Link>
-            </li>
-            <li className={css.navItem}>
               <Link to="/projects">Projects</Link>
             </li>
             <li className={css.navItem}>
