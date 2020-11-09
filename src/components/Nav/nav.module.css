@@ -1,16 +1,21 @@
 .nav {
-  min-height: 10vh;
-  background-color: #d14a4a;
+  display: flex;
+}
+.name {
+  width: 300px;
+  margin-left: 1.5em;
+  margin-top: 1em;
 }
 
 ul {
-  display: flex;
   margin-left: 67vw;
   font-family: "Lakki Reddy", cursive;
   list-style: none;
+  flex-direction: row;
 }
 
 .navItem {
+  margin-top: 0;
   padding-left: 1em;
 }
 

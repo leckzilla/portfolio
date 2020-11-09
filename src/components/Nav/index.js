@@ -4,13 +4,14 @@ import About from "../About";
 import Projects from "../Projects";
 import Contact from "../Contact";
 import css from "./nav.module.css";
+import name from "./name.png"
 
 function Nav() {
   return (
     <div>
       <Router>
         <nav className={css.nav}>
-        <h1>Alexa-Jane Berry</h1>
+        <img className={css.name} src={name} alt="name" />
           <ul>
           <li className={css.navItem}>
               <Link to="/">Home</Link>
@@ -24,10 +25,10 @@ function Nav() {
           </ul>
         </nav>
         <Switch>
-        {/* <Route path="/" component={App} /> */}
-          <Route path="/about" component={About} />
+          
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
+          <Route path="/" component={About} />
         </Switch>
       </Router>
     </div>

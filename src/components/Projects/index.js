@@ -4,11 +4,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import volt from "./VOLT.JPG";
 
 //cut n paste pikey job - just a carousel component to tinker with later once I've got some projects
-//Project 1 - VOLT
-//Project 2 - WMCA mid term
-//Project 3 - CFG
-//Project 4 - Parsnip
-//Project 5 - Shenanigans?
+// VOLT
+// CFG
+// Parsnip
+// Shenley SYS Site
+// Shenanigans?
 
 let styles = {
   margin: "auto",
