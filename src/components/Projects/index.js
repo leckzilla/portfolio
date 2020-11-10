@@ -1,48 +1,43 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import css from "./projects.module.css"
 import volt from "./VOLT.JPG";
+import animate from "./animate_health.png"
+import parsnip from "./Parsnip.PNG"
 
-//cut n paste pikey job - just a carousel component to tinker with later once I've got some projects
 // VOLT
 // CFG
 // Parsnip
 // Shenley SYS Site
 // Shenanigans?
 
-let styles = {
-  margin: "auto",
-  width: "500px",
-};
 
 function Projects() {
   return (
-    <div style={styles}>
+    <div className={css.carousel}>
       <Carousel>
-        <div>
+        <div classname={css.items}>
           <img src={volt} alt="VOLT" />
           <p>VOLT - School of Code Final Project</p>
         </div>
-        <div>
-          <img
-            src="https://res.klook.com/image/upload/fl_lossy.progressive,q_65/c_fill,w_480,h_384/cities/c1cklkyp6ms02tougufx.webp"
-            alt="Singapore"
-          />
-          <p>Project 2 - CFG?</p>
+        <div classname={css.items} >
+        <img src={animate} alt="Ani-Mate" />
+          <p>Project 2 - Ani-Mate</p>
         </div>
         <div>
           <img
-            src="https://res.klook.com/image/upload/fl_lossy.progressive,q_65/c_fill,w_480,h_384/cities/e8fnw35p6zgusq218foj.webp"
-            alt="Japan"
+            src={parsnip}
+            alt="parnsip"
           />
-          <p>Project 3 - WMCA</p>
+          <p>Project 3 - Parsnip - A seasonal eating app</p>
         </div>
         <div>
           <img
-            src="https://res.klook.com/image/upload/fl_lossy.progressive,q_65/c_fill,w_480,h_384/cities/liw377az16sxmp9a6ylg.webp"
-            alt="New York"
+            src=""
+            alt="ShenleyFieldsSYS"
           />
-          <p>Project 4 - Parnsip</p>
+          <p>Project 4 - ShenleyFields SYS Cricket Club</p>
         </div>
       </Carousel>
     </div>
